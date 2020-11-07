@@ -18,6 +18,9 @@ s = m:section(NamedSection, arg[1], "rule", "")
 s.addremove = false
 s.dynamic = false
 
+enable = s:option(Flag,"enable",translate("enable"))
+enable.rmempty = false
+
 o = s:option(ListValue, "family", translate("Internet Protocol"))
 o.default = ""
 o:value("", translate("IPv4 and IPv6"))

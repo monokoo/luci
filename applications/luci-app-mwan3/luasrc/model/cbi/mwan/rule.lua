@@ -70,6 +70,9 @@ function mwan_rule.create(self, section)
 	end
 end
 
+enable = mwan_rule:option(Flag,"enable",translate("enable"))
+enable.rmempty = false
+
 src_ip = mwan_rule:option(DummyValue, "src_ip", translate("Source address"))
 src_ip.rawhtml = true
 function src_ip.cfgvalue(self, s)

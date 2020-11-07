@@ -160,7 +160,7 @@ function diagnosticsData(interface, task)
 			end
 		elseif task == "ping_trackips" then
 			local trackips = uci:get("mwan3", interface, "track_ip")
-			if #trackips > 0 then
+			if trackips and #trackips > 0 then
 				for i in pairs(trackips) do
 					diag_command("ping -I %s -c 5 -W 1 %s 2>&1", device, trackips[i])
 				end
