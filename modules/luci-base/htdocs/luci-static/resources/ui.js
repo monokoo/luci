@@ -4249,29 +4249,12 @@ var UI = baseclass.extend(/** @lends LuCI.ui.prototype */ {
 		 * settings.
 		 */
 		apply: function(checked) {
-			checked = false;
 			this.displayStatus('notice spinning',
 				E('p', _('Starting configuration apply…')));
 
-			var query = { sid: L.env.sessionid, token: L.env.token };
-
-			var config_doms = document.getElementsByClassName("cbi-map");
-			if (config_doms.length > 0) {
-				var config = new Array();
-				for (var i = 0; i < config_doms.length; i++) {
-					var config_dom = config_doms[i];
-					var config_id = config_dom.id;
-					if (config_id != null) {
-						config_id = config_id.replace("cbi-", "");
-						config[i] = config_id;
-					}
-				}
-				query.config = config.join();
-			}
-			
 			request.request(L.url('admin/uci', checked ? 'apply_rollback' : 'apply_unchecked'), {
 				method: 'post',
-				query: query
+				query: { sid: L.env.sessionid, token: L.env.token }
 			}).then(function(r) {
 				if (r.status === (checked ? 200 : 204)) {
 					var tok = null; try { tok = r.json(); } catch(e) {}
