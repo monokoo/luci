@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-02 14:41+0000\n"
-"Last-Translator: Krzysiek Fulko <kfulko@gmail.com>\n"
+"PO-Revision-Date: 2020-12-16 11:01+0000\n"
+"Last-Translator: Marcin Net <marcin.net@linux.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsadblock/pl/>\n"
 "Language: pl\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:258
 msgid "Action"
@@ -64,7 +64,7 @@ msgstr "Ustawienia DNS"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:272
 msgid "Advanced E-Mail Settings"
-msgstr "Ustawienia email"
+msgstr "Ustawienia e-mail"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:271
 msgid "Advanced Report Settings"
@@ -105,7 +105,7 @@ msgstr "Czarna lista..."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:310
 msgid "Blocked DNS Requests"
-msgstr ""
+msgstr "Zablokowane żądania DNS"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:211
 msgid "Blocked Domain"
@@ -254,27 +254,27 @@ msgstr "Narzędzie pobierania"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:321
 msgid "E-Mail Notification"
-msgstr "Powiadomienie email"
+msgstr "Powiadomienie e-mail"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:471
 msgid "E-Mail Notification Count"
-msgstr "Licznik powiadomień email"
+msgstr "Licznik powiadomień e-mail"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:467
 msgid "E-Mail Profile"
-msgstr "Profil E-mail"
+msgstr "Profil e-mail"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:325
 msgid "E-Mail Receiver Address"
-msgstr "Adres E-mail odbiorcy"
+msgstr "Adres e-mail odbiorcy"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:459
 msgid "E-Mail Sender Address"
-msgstr "Adres E-mail nadawcy"
+msgstr "Adres e-mail nadawcy"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:463
 msgid "E-Mail Topic"
-msgstr "Temat E-Mail"
+msgstr "Temat e-mail"
 
 #: applications/luci-app-adblock/luasrc/controller/adblock.lua:9
 #: applications/luci-app-adblock/root/usr/share/luci/menu.d/luci-app-adblock.json:35
@@ -309,7 +309,7 @@ msgstr "Włączone"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:304
 msgid "End Timestamp"
-msgstr ""
+msgstr "Sygnatura czasowa zakończenia"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:301
 msgid ""
@@ -474,7 +474,7 @@ msgstr "Przegląd"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:467
 msgid "Profile used by 'msmtp' for adblock notification E-Mails."
-msgstr "Profil używany przez 'msmtp' do powiadamiania o blokadzie email."
+msgstr "Profil używany przez 'msmtp' do powiadamiania o blokadzie e-mail."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:132
 msgid "Query"
@@ -491,12 +491,12 @@ msgid ""
 "Raise the notification count, to get E-Mails if the overall blocklist count "
 "is less or equal to the given limit."
 msgstr ""
-"Zwiększ liczbę powiadomień, aby otrzymywać wiadomości email jeśli ogólna "
+"Zwiększ liczbę powiadomień, aby otrzymywać wiadomości e-mail jeśli ogólna "
 "liczba blokowanych list jest mniejsza lub równa podanemu limitowi."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:325
 msgid "Receiver address for adblock notification e-mails."
-msgstr "Adres odbiorcy dla powiadomień email adblocka."
+msgstr "Adres odbiorcy dla powiadomień e-mail adblocka."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:293
 msgid ""
@@ -608,12 +608,12 @@ msgid ""
 "Send adblock related notification e-mails. Please note: this needs "
 "additional 'msmtp' package installation."
 msgstr ""
-"Wysyłaj powiadomienia email związane z adblock. Uwaga: wymaga to dodatkowej "
+"Wysyłaj powiadomienia e-mail związane z adblock. Uwaga: wymaga to dodatkowej "
 "instalacji pakietu 'msmtp'."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:459
 msgid "Sender address for adblock notification E-Mails."
-msgstr "Adres nadawcy dla powiadomień emailowych adblocka."
+msgstr "Adres nadawcy dla powiadomień e-mailowych adblocka."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:29
 msgid "Set/Replace a new adblock job"
@@ -653,7 +653,7 @@ msgstr "Specjalne opcje konfiguracji dla wybranego narzędzia do pobierania."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:301
 msgid "Start Timestamp"
-msgstr ""
+msgstr "Sygnatura czasowa uruchamiania"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:287
 msgid "Startup Trigger Interface"
@@ -770,11 +770,11 @@ msgstr "Top 10"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:463
 msgid "Topic for adblock notification E-Mails."
-msgstr "Temat dla powiadomień email adblocka."
+msgstr "Temat dla powiadomień e-mail adblocka."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:307
 msgid "Total DNS Requests"
-msgstr ""
+msgstr "Łączna liczba żądań DNS"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:341
 msgid "Trigger Delay"
