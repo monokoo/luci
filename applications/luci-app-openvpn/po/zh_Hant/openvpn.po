@@ -6,8 +6,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-05-19 19:35+0200\n"
-"PO-Revision-Date: 2020-12-30 02:30+0000\n"
-"Last-Translator: operator <omniplay@hotmail.com>\n"
+"PO-Revision-Date: 2021-01-17 20:54+0000\n"
+"Last-Translator: akibou <jinwenxin1997@icloud.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "openwrt/luciapplicationsopenvpn/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:364
 msgid "'net30', 'p2p', or 'subnet'"
@@ -98,7 +98,7 @@ msgstr "認證授權"
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:80
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-basic.lua:17
 msgid "Change process priority"
-msgstr "改變程序優先順序"
+msgstr "變更行程優先權"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:40
 msgid "Change to directory before initialization"
@@ -265,7 +265,7 @@ msgstr "在 <em>IP</em> <em>port</em> 上啟用可管理介面"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn.lua:104
 msgid "Enabled"
-msgstr "已啟用"
+msgstr "啟用"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:752
 msgid "Encrypt and authenticate all control channel packets with the key"
@@ -301,7 +301,7 @@ msgstr "TLS 驗證失敗後退出"
 
 #: applications/luci-app-openvpn/root/usr/share/rpcd/acl.d/luci-app-openvpn.json:3
 msgid "Grant access to OpenVPN configuration"
-msgstr "授予對OpenVPN組態的存取權限"
+msgstr "授予存取 OpenVPN 組態的權限"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:573
 msgid "HMAC authentication for packets"
@@ -320,7 +320,7 @@ msgstr "在服務配置模式下簡化 Helper 指令 --ping 和 --ping-restart �
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:551
 msgid "If hostname resolve fails, retry"
-msgstr "如果主機名解析錯誤，重試"
+msgstr "如果主機名稱解析失敗則重試"
 
 #: applications/luci-app-openvpn/luasrc/view/openvpn/pageswitch.htm:12
 msgid "Instance \"%s\""
@@ -412,7 +412,7 @@ msgstr "優化 TUN/TAP/UDP 寫入"
 
 #: applications/luci-app-openvpn/luasrc/view/openvpn/pageswitch.htm:11
 msgid "Overview"
-msgstr "總覽"
+msgstr "概覽"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:674
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-basic.lua:73
@@ -453,7 +453,7 @@ msgstr "外部程式和指令碼超出了策略允許的使用範圍"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn.lua:141
 msgid "Port"
-msgstr "埠"
+msgstr "通訊埠"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn.lua:156
 msgid "Protocol"
@@ -681,7 +681,7 @@ msgstr "顯式檔案格式版本的狀態"
 
 #: applications/luci-app-openvpn/luasrc/view/openvpn/pageswitch.htm:15
 msgid "Switch to advanced configuration"
-msgstr "高階配置"
+msgstr "切換到進階組態"
 
 #: applications/luci-app-openvpn/luasrc/view/openvpn/pageswitch.htm:18
 msgid "Switch to basic configuration"
