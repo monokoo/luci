@@ -512,18 +512,18 @@ msgstr "全エントリ数"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:688
 msgid ""
-"Number of the failed LuCI login repetitions of the same ip in the log before "
+"Number of failed LuCI login repetitions of the same ip in the log before "
 "banning."
 msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:693
 msgid ""
-"Number of the failed nginx requests of the same ip in the log before banning."
+"Number of failed nginx requests of the same ip in the log before banning."
 msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:683
 msgid ""
-"Number of the failed ssh login repetitions of the same ip in the log before "
+"Number of failed ssh login repetitions of the same ip in the log before "
 "banning."
 msgstr ""
 
@@ -762,9 +762,9 @@ msgstr ""
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/blacklist.js:23
 msgid ""
 "This is the local banIP blacklist to always-deny certain IP/CIDR addresses."
-"<br /> <em><b>Please note:</b></em> add only one IPv4 or IPv6 address per "
-"line. Comments introduced with '#' are allowed - domains, wildcards and "
-"regex are not."
+"<br /> <em><b>Please note:</b></em> add only one IPv4 address, IPv6 address "
+"or domain name per line. Comments introduced with '#' are allowed - "
+"wildcards and regex are not."
 msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/maclist.js:23
@@ -777,9 +777,9 @@ msgstr ""
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/whitelist.js:23
 msgid ""
 "This is the local banIP whitelist to always allow certain IP/CIDR addresses."
-"<br /> <em><b>Please note:</b></em> add only one IPv4 or IPv6 address or per "
-"line. Comments introduced with '#' are allowed - domains, wildcards and "
-"regex are not."
+"<br /> <em><b>Please note:</b></em> add only one IPv4 address, IPv6 address "
+"or domain name per line. Comments introduced with '#' are allowed - "
+"wildcards and regex are not."
 msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/ipsetreport.js:177
